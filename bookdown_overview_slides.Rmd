@@ -37,8 +37,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r, echo = FALSE}
 
-file.copy("bookdown_overview_slides.html", "docs/index.html")
-
+file.copy("bookdown_overview_slides.html", "docs/")
+file.rename("docs/bookdown_overview_slides.html", "docs/index.html")
 
 
 ```
