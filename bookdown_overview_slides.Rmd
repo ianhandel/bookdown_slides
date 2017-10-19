@@ -35,10 +35,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 (https://github.com/rstudio/bookdown)
 
-```{r, echo = FALSE, include = FALSE}
+```{r, echo = FALSE}
 
-file.copy("bookdown_overview_slides.html", "docs/")
-file.rename("docs/bookdown_overview_slides.html", "docs/index.html")
+invisible(file.copy("bookdown_overview_slides.html", "docs/"))
+invisible(file.rename("docs/bookdown_overview_slides.html", "docs/index.html"))
 
 
 ```
