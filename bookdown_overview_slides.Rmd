@@ -1,0 +1,36 @@
+---
+title: "Bookdown Slides"
+output: 
+  revealjs::revealjs_presentation:
+    theme: night
+    transition: none
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Bookdown package
+
+<img src="images/bookdown_website.png" height="600px" />
+
+## The Book
+
+<img src="images/bookdown_book.png" height="400px" width="300px" />
+
+## RStudio
+
+<img src="images/bookdown_rstudio.png" height="600px"  />
+
+## Publishing
+
+[Example site](https://ianhandel.github.io/plotting-with-r/building.html)
+
+[The GitHub bit](https://github.com/ianhandel/plotting-with-r)
+
+## Help
+
+(https://bookdown.org/yihui/bookdown/)
+
+(https://github.com/rstudio/bookdown)
