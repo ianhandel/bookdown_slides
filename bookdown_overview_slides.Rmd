@@ -34,3 +34,12 @@ knitr::opts_chunk$set(echo = FALSE)
 (https://bookdown.org/yihui/bookdown/)
 
 (https://github.com/rstudio/bookdown)
+
+```{r, echo = FALSE}
+
+file.copy("bookdown_overview_slides.html", "docs/")
+
+
+
+```
+
